@@ -1,0 +1,21 @@
+<project>
+    <config>
+        <data>
+            <base_url>http://139.199.132.220:9000/event/api/</base_url>
+            <username>huice</username>
+            <password>huicehuice!@#</password>
+        </data>
+        <database>
+            <host>139.199.132.220</host>
+            <user>root</user>
+            <password>123456</password>
+            <db>event</db>
+        </database>
+    </config>
+    <cases>
+        <Register-register01/>
+        <Register-register02/>
+        <AddEvent-add_event01/>
+        <EventDetail-get_eventdetail01/>
+    </cases>
+</project>
